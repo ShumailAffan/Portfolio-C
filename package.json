@@ -1,0 +1,23 @@
+{
+    "name": "cloud-portfolio",
+    "version": "1.0.0",
+    "description": "Modern cloud-hosted portfolio website for Muhammad Shumail Affan",
+    "main": "index.html",
+    "scripts": {
+        "dev": "python -m http.server 8000",
+        "start": "python -m http.server 8000",
+        "deploy:netlify": "netlify deploy --prod",
+        "deploy:vercel": "vercel --prod"
+    },
+    "keywords": [
+        "portfolio",
+        "cloud",
+        "bootstrap",
+        "tailwind",
+        "responsive"
+    ],
+    "author": "Muhammad Shumail Affan",
+    "license": "MIT",
+    "devDependencies": {},
+    "dependencies": {}
+}
